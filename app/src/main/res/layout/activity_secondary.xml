@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".SecondaryActivity">
     <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -15,17 +15,5 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:textSize="24sp"/>
-
-    <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            tools:ignore="MissingConstraints">
-        <Button android:layout_width="322dp"
-                android:layout_height="48dp"
-                android:text="@string/go_to_secondary_activity"
-                android:onClick="goToSecondaryActivity"
-                tools:ignore="MissingConstraints"/>
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

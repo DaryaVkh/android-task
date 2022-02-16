@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">My first app</string>
+    <string name="app_name">Android course task</string>
+    <string name="go_to_secondary_activity">Go to secondary activity</string>
 </resources>
